@@ -1,0 +1,194 @@
+:root {
+  --main-font-family: "Roboto", sans-serif;
+  --basic-color-font: #212121;
+  --secondary-color-font: #757575;
+  --color-accent: #2196F3;
+  --secondary-color-accent:#FFFFFF;
+  --main-beckground-color:#E5E5E5;}
+
+.list {list-style: none;}
+
+.link {text-decoration: none;}
+
+body {
+font-family: var(--main-font-family);
+font-size: 14px;
+line-height: 1.14;
+background: var(--main-beckground-color);
+letter-spacing: 0.03em;
+}
+
+/*=======HEADER=======*/
+
+.logo {font-family: 'Raleway', sans-serif;
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height:1.19;
+}
+
+.main-logo {color:var(--color-accent)}
+
+.nav-list { 
+font-family:var(--main-font-family);
+font-weight: 500;
+letter-spacing: 0.02em;
+color: var(--basic-color-font);
+}
+
+.nav-list:hover, 
+.nav-list:focus 
+{
+color: var(--color-accent);
+}
+
+.is-active {color: var(--color-accent);}
+
+.contact-mail {
+font-family: var(--main-font-family);
+font-weight: 500;
+letter-spacing: 0.02em;
+color: var(--secondary-color-font);}
+
+.contact-mail:hover,
+.contact-mail:focus {
+color: var(--color-accent)
+}
+
+.contact-number {
+font-family: var(--main-font-family);
+font-weight: 500;
+letter-spacing: 0.02em;
+color: var(--secondary-color-font);}
+
+.contact-number:hover,
+.contact-number:focus 
+{color: var(--color-accent);}
+
+/*=======END HEADER=======*/
+
+/*=======START HERO=======*/
+
+.hero {color: #2F303A;}
+
+.main-title {
+font-family: var(--main-font-family);
+font-style: Black;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+/*color: var(--secondary-color-accent);*/
+}
+
+.modal-btn {font-family: var(--main-font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+color: var(--secondary-color-accent);
+background:var(--color-accent);
+cursor: pointer;}
+
+.modal-btn:hover,
+.modal-btn:focus
+{background: var(--color-accent);}
+
+/*=======END HERO=======*/
+
+/*=======SECTION BENEFITS=======*/
+
+/*.benefits {background:#E5E5E5;}*/
+
+.subtitle {font-family: var(--main-font-family);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--basic-color-font);}
+
+.subtitle-team {font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+
+  color:var(--basic-color-font);}
+
+.text {
+font-family: var(--main-font-family);
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: var(--secondary-color-font);
+}
+
+.text-team {font-family: var(--main-font-family);
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+
+  color: var(--secondary-color-font);}
+
+.title {font-family: var(--main-font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  
+  color: var(--basic-color-font);}
+
+/*======= END SECTION BENEFITS=======*/
+
+/*=======SECTION FIELD=======*/
+
+/*======= END SECTION FIELD=======*/
+
+/*=======SECTION COMMAND=======*/
+
+/*=======END SECTION COMMAND=======*/
+
+/*=======FOOTER=======*/
+
+.address {
+font-family: var(--main-font-family);
+font-style: Regular;
+font-size: 14px;
+line-height: 1.71;
+/*color: var(--secondary-color-accent);*/}
+
+/*======= END FOOTER=======*/
+
+/*=======PORTFOLIO PADGE=======*/
+
+.secondary-text {
+font-family: var(--main-font-family);
+font-size: 16px;
+line-height: 1.87;
+
+color: var(--secondary-color-font);}
+
+.secondary-subtitle{
+font-family: var(--main-font-family);
+font-weight: 700;
+letter-spacing: 0.06em;
+
+
+color: var(--basic-color-font);}
+
+.filter-btn {font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+
+  color: var(--basic-color-font);
+  background: #F5F4FA;}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background: var(--color-accent);
+  color: var(--secondary-color-accent);
+  }
