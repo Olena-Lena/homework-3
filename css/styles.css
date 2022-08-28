@@ -10,6 +10,23 @@
 
 .link {text-decoration: none;}
 
+h1,h2,h3,p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,ol {
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
+}
+
+img {
+display: block;
+}
+
+address {font-style: normal;}
+
 body {
 font-family: var(--main-font-family);
 font-size: 14px;
@@ -18,9 +35,38 @@ background: var(--main-beckground-color);
 letter-spacing: 0.03em;
 }
 
+.conteiner {
+width:1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;}
+
 /*=======HEADER=======*/
 
-.logo {font-family: 'Raleway', sans-serif;
+.header {
+padding-top: 32px;
+padding-bottom: 32px;
+}
+
+.header-conteiner {
+display: flex;
+}
+
+.navigation {
+display: flex;
+align-items: center;
+}
+
+.header-conteiner {
+display: flex;
+justify-content:space-between;}
+
+.logo {
+  margin-right: 94px;
+  margin-bottom: 26px;
+
+  font-family: 'Raleway', sans-serif;
   color: #000000;
   font-weight: 700;
   font-size: 26px;
@@ -41,6 +87,21 @@ color: var(--basic-color-font);
 {
 color: var(--color-accent);
 }
+
+.nav-list-item:not(:last-child) {
+margin-right: 50px;
+margin-bottom: 26px;
+}
+
+.nav {
+display: flex;
+}
+ 
+.contact-list-item:not(:last-child) {
+margin-right: 50px ;
+margin-bottom: 26px;}
+
+.contact {display: flex;}
 
 .is-active {color: var(--color-accent);}
 
@@ -99,6 +160,8 @@ cursor: pointer;}
 /*=======SECTION BENEFITS=======*/
 
 /*.benefits {background:#E5E5E5;}*/
+
+.benefits-list {display: flex;}
 
 .subtitle {font-family: var(--main-font-family);
   font-weight: 700;
