@@ -222,6 +222,18 @@ font-family: var(--main-font-family);
 
 /*=======SECTION FIELD=======*/
 
+.field {
+display: flex;
+flex-wrap: wrap;
+margin-left: -30px;
+margin-top: -50px;
+}
+
+.field-item {
+flex-basis: calc(100%-90px)/3;
+margin-left: 30px;
+margin-top: 50px;
+}
 /*======= END SECTION FIELD=======*/
 
 /*=======SECTION COMMAND=======*/
@@ -232,8 +244,21 @@ background: #F5F4FA;
 
 .team-list {
 display: flex;
-
 flex-wrap: wrap;
+margin-left: -30px;
+margin-top: -50px;
+}
+
+.team-items {
+flex-basis: calc(100%-120px)/4;
+margin-left: 30px;
+margin-top: 50px;}
+
+.conteiner-team {
+background: var(--secondary-color-accent);
+padding-top: 3F0px;
+padding-bottom: 30px;
+border-radius: 0px 0px 4px 4px;
 }
 
 /*=======END SECTION COMMAND=======*/
