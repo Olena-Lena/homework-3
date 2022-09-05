@@ -53,8 +53,8 @@ padding-bottom: 94px;}
 /*=======HEADER=======*/
 
 .header {
-padding-top: 32px;
-padding-bottom: 32px;
+padding-top: 24px;
+padding-bottom: 25px;
 border: 1px solid #ECECEC;
 }
 
@@ -106,11 +106,15 @@ margin-bottom: 26px;
 display: flex;
 }
  
-.contact-list-item:not(:last-child) {
-margin-right: 50px ;
-margin-bottom: 26px;}
 
-.contact {display: flex;}
+.contact {
+display: flex;
+align-items: center;}
+
+.contact-list-item:not(:last-child) {
+margin-right: 50px;
+margin-bottom: 26px;
+}
 
 .is-active {color: var(--color-accent);}
 
