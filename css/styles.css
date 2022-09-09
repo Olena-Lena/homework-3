@@ -70,7 +70,8 @@ align-items: center;
 
 .header-conteiner {
 display: flex;
-justify-content:space-between;}
+justify-content:space-between;
+}
 
 .logo {
   margin-right: 94px;
@@ -153,11 +154,11 @@ color: var(--secondary-color-font);}
 /*=======START HERO=======*/
 
 .hero {
-background: #2F303A}
+background: #2F303A;}
 
 .main-title {
 text-align: center;
-margin-bottom: 30px;
+
 
 font-family: var(--main-font-family);
 font-style: Black;
@@ -171,7 +172,7 @@ color: var(--secondary-color-accent);
 
 .modal-btn {
 display: block;
-margin: 0 auto;
+margin: auto;
 padding: 10px 32px;
 border: var(--color-accent);
 border-radius: 4px;
@@ -325,6 +326,8 @@ line-height: 1.87;
 color: var(--secondary-color-font);}
 
 .secondary-subtitle{
+margin-bottom: 4px;
+
 font-family: var(--main-font-family);
 font-weight: 700;
 letter-spacing: 0.06em;
@@ -334,10 +337,12 @@ color: var(--basic-color-font);}
 .filter {
 display: flex;
 justify-content: center;
+
 }
 
 .filter-btn {
   padding:6px 22px;
+
   border: var(--basic-color-font);
 
   font-family: var(--main-font-family);
@@ -365,11 +370,15 @@ margin-right: 30px;
 margin-bottom: 56px;
 }
 
+.filter-items {
+margin-top: 94px;
+margin-bottom: 50px
+}
+
 .example-work {
 display: flex;
 flex-wrap: wrap;
 gap: 30px;
-margin-bottom: 96px;
 }
 
 .example-work-items:not(:3n) {
@@ -380,7 +389,6 @@ margin-bottom: 20px;
 
 .conteiner-example {
 padding: 20px 24px;
-background: var(--secondary-color-accent);
 border: 1px solid #EEEEEE;
 }
 
