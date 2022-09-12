@@ -75,7 +75,8 @@ justify-content:space-between;
 
 .logo {
   margin-right: 94px;
-  margin-bottom: 26px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 
   font-family: 'Raleway', sans-serif;
   color: #000000;
@@ -99,32 +100,28 @@ color: var(--basic-color-font);
 color: var(--color-accent);
 }
 
-.nav-list-item:not(:last-child) {
-margin-right: 50px;
-margin-bottom: 26px;
-}
-
 .nav-list-item {
+display: block;
 padding-top: 32px;
-padding-bottom: 32px;}
+padding-bottom: 32px;
+}
 
 .contact-list-item {
   padding-top: 32px;
-  padding-bottom: 32px;}
+  padding-bottom: 32px;
+  }
 
 .nav {
 display: flex;
+gap: 50px;
 }
  
 
 .contact {
 display: flex;
-align-items: center;}
+align-items: center;
+gap: 50px;}
 
-.contact-list-item {
-margin-right: 50px;
-margin-bottom: 26px;
-}
 
 .is-active {color: var(--color-accent);}
 
@@ -154,11 +151,15 @@ color: var(--secondary-color-font);}
 /*=======START HERO=======*/
 
 .hero {
-background: #2F303A;}
+background: #2F303A;
+padding-top: 200px;
+padding-bottom: 200px;}
 
 .main-title {
 text-align: center;
-
+width: 696px;
+margin-left: auto;
+margin-right: auto;
 
 font-family: var(--main-font-family);
 font-style: Black;
@@ -173,6 +174,7 @@ color: var(--secondary-color-accent);
 .modal-btn {
 display: block;
 margin: auto;
+margin-top: 30px;
 padding: 10px 32px;
 border: var(--color-accent);
 border-radius: 4px;
@@ -262,13 +264,11 @@ padding-top: 0px;
 display: flex;
 flex-wrap: wrap;
 margin-left: -30px;
-margin-top: -50px;
 }
 
 .field-item {
-flex-basis: calc(100%-90px)/3;
+flex-basis: calc((100% - 90px) / 3);
 margin-left: 30px;
-margin-top: 50px;
 }
 /*======= END SECTION FIELD=======*/
 
@@ -282,13 +282,12 @@ background: #F5F4FA;
 display: flex;
 flex-wrap: wrap;
 margin-left: -30px;
-margin-top: -50px;
 }
 
 .team-items {
-flex-basis: calc(100%-120px)/4;
+flex-basis: calc((100% - 120px) / 4);
 margin-left: 30px;
-margin-top: 50px;}
+}
 
 .conteiner-team {
 background: var(--secondary-color-accent);
@@ -301,8 +300,20 @@ border-radius: 0px 0px 4px 4px;
 
 /*=======FOOTER=======*/
 
-.address {
+.footer-logo {
+display: block;
+margin-bottom: 20px;
 
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--secondary-color-accent);
+}
+
+.address {
 font-family: var(--main-font-family);
 font-style: Regular;
 font-size: 14px;
@@ -310,8 +321,7 @@ line-height: 1.71;
 color: var(--secondary-color-accent);}
 
 .section-footer {
-padding-top: 60px;
-padding-bottom: 60px;
+background: #2F303A;
 }
 
 /*======= END FOOTER=======*/
@@ -337,7 +347,8 @@ color: var(--basic-color-font);}
 .filter {
 display: flex;
 justify-content: center;
-
+margin-bottom: 50px;
+gap: 9px;
 }
 
 .filter-btn {
@@ -363,17 +374,6 @@ justify-content: center;
   color: var(--secondary-color-accent);
   border: var(--color-accent);
   }
-
-.filter-items:not(:last-child) {
-flex-basis: calc(100%-150px)/5;
-margin-right: 30px;
-margin-bottom: 56px;
-}
-
-.filter-items {
-margin-top: 94px;
-margin-bottom: 50px
-}
 
 .example-work {
 display: flex;
